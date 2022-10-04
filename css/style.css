@@ -1,0 +1,122 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, "Times NewRoman", Arial;
+    padding: none;
+    margin: 0 auto;
+    background-color: #495867;
+}
+
+textarea {
+    background-color: #EEFFFF !important;
+}
+
+.btn {
+    background-color: #2E5266;
+    border-color: #2E5266;
+}
+
+.btn:hover {
+    background-color: #1E998F;
+    border-color: #1E998F;
+}
+
+/* header */
+.bg-turq {
+    background-color: #1E998F;
+}
+
+.container {
+    background-color: #EEEEFF;
+}
+
+#carousel {
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    padding-left: 500px;
+    padding-top: 80px;
+    font-family: 'Berkshire Swash', cursive;
+    color: #ECF0F1;
+}
+
+
+#about {
+    border: none;
+    margin: 1rem auto;
+    padding: 10px;
+    text-align: left;
+    justify-content: space-around;
+    grid-column: 1/4;
+}
+
+/* background image */
+
+.bg-image {
+    background-image: url("../images/photos/bg-image.png");
+    height: 600px;
+    justify-content: stretch;
+    /* top and bottom, right and left */
+    margin: 0px -12px;
+}
+
+/* Card images */
+
+.card img {
+    height: 390px;
+}
+
+.bg-wht {
+    background-color: #EEEEFF;
+}
+
+.border-grn {
+    border-color: #32533D;
+}
+
+.bg-turq {
+    background-color: #30D5C8;
+}
+
+.min-vh-65 {
+    min-height: 65vh;
+}
+
+.min-h-100 {
+    min-height: inherit;
+}
+
+.hide {
+    display: none !important;
+}
+
+.navbar-light .dropdown .dropdown-menu .dropdown-item {
+    color: #495057;
+}
+
+.navbar-light .dropdown .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #30D5C8;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.collapse-horizontal:not(.show) {
+    display: block;
+    width: 0;
+}
+
+.hover-bottom> :hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5) !important;
+    color: #1ee4d4;
+}
+
+.hover-top> :hover {
+    border-top: 1px solid rgba(0, 0, 0, 0.5) !important;
+    color: #1ee4d4;
+}
